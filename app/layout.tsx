@@ -8,6 +8,9 @@ const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jet
 export const metadata: Metadata = {
   title: "Physical AI — Distributed Architecture Lab",
   description: "High-performance distributed architectures for Edge AI and Cloud Robotics.",
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
